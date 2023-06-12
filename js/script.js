@@ -35,21 +35,21 @@ const members = [
   },
 ];
 
-// for (let member of members) {
-//   for (let key in member) {
-//     console.log(`${key}:${member[key]}`);
-//   }
-// }
+for (let member of members) {
+  for (let key in member) {
+    console.log(`${key}:${member[key]}`);
+  }
+}
 
 let listMembers = "";
 
 for (let member of members) {
   listMembers += `
-<div class="col">
-    <div class="member mb-3">
+<div class="col-4">
+    <div class="member mb-4">
       <img src="img/${member.picture}" alt="${member.name}">
       <div class="member-info">
-          <p class="name">${member.name}</p>
+          <h3 class="name">${member.name}</h3>
           <p class="role">${member.role}</p>
       </div>
     </div>

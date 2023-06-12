@@ -1,0 +1,19 @@
+body{
+    background-color: #f5f5f1;
+}
+
+.member{
+    height: 100%;
+} 
+
+
+
+.member img{
+    width: 100%;
+}
+
+
+.member-info{
+    background-color: white;
+    padding: 5px;
+}
