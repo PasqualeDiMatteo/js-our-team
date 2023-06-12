@@ -45,7 +45,7 @@ let listMembers = "";
 
 for (let member of members) {
   listMembers += `
-<div class="col-4">
+<div class="col-12 col-md-4">
     <div class="member mb-4">
       <img src="img/${member.picture}" alt="${member.name}">
       <div class="member-info">
