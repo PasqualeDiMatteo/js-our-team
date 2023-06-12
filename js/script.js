@@ -32,3 +32,9 @@ const members = [
     picture: "barbara-ramos-graphic-designer.jpg",
   },
 ];
+
+for (let member of members) {
+  for (let key in member) {
+    console.log(`${key}:${member[key]}`);
+  }
+}
