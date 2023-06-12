@@ -1,6 +1,9 @@
 console.log("JSOK");
 
+// I take an element from the dom
 const listElements = document.getElementById("list");
+
+// List members
 
 const members = [
   {
@@ -35,6 +38,7 @@ const members = [
   },
 ];
 
+// I print it in console
 for (let member of members) {
   for (let key in member) {
     console.log(`${key}:${member[key]}`);
@@ -42,6 +46,8 @@ for (let member of members) {
 }
 
 let listMembers = "";
+
+// I print it on page
 
 for (let member of members) {
   listMembers += `
